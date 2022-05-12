@@ -60,7 +60,7 @@ header{
     background-color: #9792e4;
     margin-top: 50px;
 }
-.strategic-section img{
+#strategic-section-img{
     width: 100%;
     height: 350px;
     margin: 50px 0;
@@ -70,4 +70,21 @@ header{
     width: 100%;
     height: 300px;
     background-color: aqua;
+}
+#strategic-card{
+    width: 100%;
+    background-color: white;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    border-radius: 50px;
+}
+#strategic-card-p{
+    background-color: yellow;
+    width: 100%;
+    height: 300px;
+}
+#strategic-card-img{
+    width: 100%;
+    height: 350px;
+    background-color: red;
 }
