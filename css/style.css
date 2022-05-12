@@ -35,7 +35,7 @@ header{
     margin: auto 0;
 }
 
-/* DEMO-SECTION */
+/* DEMO */
 .demo-section{
     padding-bottom: 50px;
 }
@@ -54,7 +54,7 @@ header{
     border-radius: 25px;
 }
 
-/* STRATEGIC-SECTION */
+/* STRATEGIC */
 .strategic-section{
     width: 100%;
     background-color: #9792e4;
@@ -134,7 +134,7 @@ header{
     background-color: aqua;
 }
 
-/* BENEFITS-SECTION */
+/* BENEFITS */
 .benefits-section{
     width: 100%;
     background-color: #9792e4;
@@ -166,7 +166,7 @@ header{
     background-color: #9792e4;
 }
 
-/* ABOUTS-US-SECTION */
+/* ABOUTS-US */
 .about-us{
     padding-top: 100px;
 }
@@ -237,4 +237,24 @@ header{
     height: 40px;
     background-color: gray;
     margin: 0 auto 10px;
+}
+
+/* FOOTER */
+footer{
+    /* width: 100%; */
+    height: 250px;
+    background-color: #333;
+    padding: 50px 0;
+}
+footer p{
+    width: 100%;
+    height: 70px;
+    background-color: red;
+    margin-bottom: 50px;
+}
+footer div{
+    width: 90%;
+    height: 50px;
+    background-color: red;
+    margin: 0 auto;
 }
