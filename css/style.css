@@ -133,3 +133,37 @@ header{
     margin: auto;
     background-color: aqua;
 }
+
+/* BENEFITS-SECTION */
+.benefits-section{
+    width: 100%;
+    background-color: #9792e4;
+}
+#benefits-title{
+}
+.benefits-card{
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+}
+.benefits-card-number{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.benefits-card-title{
+    width: 60%;
+    height: 70px;
+    background-color: red;
+}
+.benefits-card-p{
+    width: 90%;
+    height: 200px;
+    background-color: aqua;
+}
+.benefits-card-button{
+    width: 60%;
+    height: 70px;
+    background-color: #9792e4;
+}
