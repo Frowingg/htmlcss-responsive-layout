@@ -77,6 +77,7 @@ header{
     margin-top: 50px;
     margin-bottom: 80px;
     border-radius: 50px;
+    padding-bottom: 10px;
 }
 #strategic-card-p{
     background-color: yellow;
@@ -87,4 +88,48 @@ header{
     width: 100%;
     height: 350px;
     background-color: red;
+}
+#strategic-card-icon{
+    width: 50px;
+    height: 50px;
+    background-color: coral;
+    margin: 50px auto;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+
+/* TESTIMONIALS */
+.testiomanials-section{
+    padding-bottom: 50px;
+}
+#testimonials-p{
+    width: 100%;
+    height: 400px;
+    background-color: aqua;
+    margin-bottom: 50px;
+}
+.testimonial-card{
+    background-color: #9792e4;
+    width: 100%;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding-bottom: 35px;
+}
+.testimonial-card-img{
+    width: 80px;
+    height: 80px;
+    background-color: darkgoldenrod;
+    margin: auto;
+}
+.testimonial-card-p{
+    width: 95%;
+    height: 200px;
+    background-color: aqua;
+    margin: 25px auto;
+}
+.testimonial-card-bottom-p{
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    background-color: aqua;
 }
