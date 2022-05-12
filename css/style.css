@@ -9,6 +9,8 @@
     background-color:darkorange;
 }
 
+/* Mobile-first */
+
 /* HEADER */
 header{
     width: 100%;
@@ -138,6 +140,10 @@ header{
 .benefits-section{
     width: 100%;
     background-color: #9792e4;
+    padding: 70px 0;
+}
+.benefits-section h2{
+    text-align: center;
 }
 .benefits-card{
     width: 100%;
@@ -257,4 +263,69 @@ footer div{
     height: 50px;
     background-color: red;
     margin: 0 auto;
+}
+
+/* tablet */
+
+@media screen and (min-width: 768px) and (max-width: 992px){
+
+
+    header{
+        background-color: black;
+    }
+
+    /* GENERAL */
+    .container{
+        width: 90%;
+    }
+    .header-container{
+        width: 90%;        
+    }
+    .flex{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* MAIN */
+
+    /* DEMO */  
+    .demo-card-head{
+        width: 68%;
+        height: 500px;
+        border: 1px solid red;
+    }
+    #demo-card-2{
+        width: 28%;
+        height: 500px;
+        border: 1px solid red;
+        margin-top: 50px;
+
+    }
+    .demo-card-3-4-5{
+        width: calc(94% / 3);
+    }
+    /* TESTIMONIAL */
+    .p{
+        width: 400px;
+        margin-right: 50px;
+    }
+    .testimonial-card-p{
+        margin: 25px 0;
+    }
+    .testimonial-card-bottom-p{
+        margin: 0;
+    }
+    
+    /* BENEFITS */
+    .benefits-card{
+        width: calc(100% / 2);
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    header{
+        background-color: red;
+    }
 }
