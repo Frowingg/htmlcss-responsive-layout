@@ -278,75 +278,121 @@ header{
 .about-us{
     padding-top: 100px;
 }
+.about-us-content-left h2{
+    color: #9792e4;
+    font-size: 50px;
+    margin-bottom: 30px;
+}
 .about-us-p{
     width: 100%;
-    height: 400px;
-    background-color: aqua;
     margin-bottom: 30px;
+    line-height: 35px;
 }
 .about-us-card{
     width: 100%;
-    height: 500px;
-    background-color: red;
+    margin-bottom: 70px;
+}
+.about-us-div-img{
+    display: flex;
+    position: relative;
+    margin-left: -40px;
+}
+.about-us-div-img i{
+    justify-self: flex-end;
+    position: relative;
+    left: 180px;
+    font-size: 60px;
+    color: #9792e4;
 }
 .about-us-card img{
-    width: 200px;
-    height: 200px;
-    background-color: blueviolet;
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
 }
 .about-us-card-p{
-    width: 100%;
-    height: 200px;
-    background-color: aqua;
+    font-size: 30px;
+    font-weight: 800;
+    color: #9792e4;
+    margin-bottom: 20px;
 }
 .about-us-card-button{
-    width: 175px;
-    height: 50px;
     background-color: #9792e4;
     border-radius: 25px;
+    max-width: fit-content;
+    padding: 5px 10px;
 }
+.about-us-card-button a{
+    color: white;
+    text-decoration: none;
+
+}
+
 
 /* CALL TO ACTION */
 
 .call-to-action{
     background-color: #9792e4;
     width: 100%;
-    /* height: 700px; */
     padding: 50px 0;
 }
 .pre-title-2{
-    width: 100px;
-    height: 50px;
     margin: 0 auto 30px;
-    /* margin-bottom: 30px; */
-    background-color:crimson;
+    font-size: 20px;
+    color: LIGHTgray;
+    text-align: center;
 }
 .pre-title-1{
-    width: 300px;
-    height: 100px;
     margin: 0 auto 40px;
-    /* margin-bottom: 30px; */
-    background-color:crimson;
+    font-size: 30px;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+.call-to-action h2{
+    font-size: 65px;
+    font-weight: 700;
+    color: #fdc15f;
+    text-align: center;
 }
 .call-to-action-p{
-    background-color: aqua;
     width: 100%;
-    height: 120px;
     margin: 30px 0;
+    color: white;
+    text-align: center;
+    font-size: 15px;
 }
 .call-to-action-button{
     width: 90%;
     height: 60px;
     background-color: white;
     margin: 0 auto 30px;
+    border-radius: 30px;
+}
+.call-to-action-button a{
+    width: 100%;
+    height: 100%;
+    color:#9792e4;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    line-height: 60px;
+    font-weight: 700;
 }
 .call-to-action-link{
     width: 90%;
-    height: 40px;
-    background-color: gray;
     margin: 0 auto 10px;
+    font-size: 14px;
+    text-align: center;
+    color: white;
 }
-
+.call-to-action-link i{
+    color: white;
+    font-size: 20px;
+}
+.call-to-action-link a{
+    color: white;
+}
 /* FOOTER */
 footer{
     /* width: 100%; */
@@ -355,16 +401,18 @@ footer{
     padding: 50px 0;
 }
 footer p{
-    width: 100%;
-    height: 70px;
-    background-color: red;
     margin-bottom: 50px;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: 800;
 }
-footer div{
-    width: 90%;
-    height: 50px;
-    background-color: red;
+#footer-bottom{
+    text-align: center;
+    color: white;
     margin: 0 auto;
+    font-size: 15px;
+    font-weight: 800;
 }
 
 /* tablet */
