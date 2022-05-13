@@ -199,7 +199,7 @@ header{
 }
 .testimonial-card-p{
     width: 95%;
-    height: 200px;
+    /* height: 200px; */
     margin: 25px auto;
     color: white;
     font-size: 20px;
@@ -441,6 +441,9 @@ footer p{
         width: 70%;
         bottom: -5px;
     }
+    #blue-button{
+        width: 63%;
+    }
     #demo-card-2{
         width: 31%;
         margin-top: 50px;
@@ -448,13 +451,21 @@ footer p{
     .demo-card-3-4-5{
         width: calc(94% / 3);
     }
+    /* STRATEGIC */
+    #strategic-left-content h2{
+        font-size: 70px;
+    }
     /* TESTIMONIAL */
+    .flex-t{
+        display: flex;
+    }
     .p{
         width: 400px;
         margin-right: 50px;
     }
     .testimonial-card-p{
-        margin: 25px 0;
+        margin: 25px 48px;
+        text-align: left;
     }
     .testimonial-card-bottom-p{
         margin: 0;
@@ -544,6 +555,7 @@ footer p{
         width: calc(96% / 3);
     }
     /* STRATEGIC */
+
     #strategic-card{
         width: 49%;
         align-self: flex-end;
