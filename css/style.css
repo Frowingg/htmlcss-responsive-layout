@@ -481,14 +481,23 @@ footer p{
     .about-us-content-right{
         width: 38%;
     }
-
+    /* ABOUT US */
+    .about-us{
+        padding-bottom: 80px;
+    }
+    .about-us-content-left h2{
+        font-size: 70px;
+    }
     /* CALL TO ACTION */
     .pre-title-2{
         width: 150px;
     }
     .pre-title-1{
         width: 600px;
-        height: 50px;
+        font-size: 50px;
+    }
+    .call-to-action h2{
+        font-size: 90px;
     }
     .call-to-action-p{
         width: 60%;
@@ -503,8 +512,6 @@ footer p{
     }
     .call-to-action-link{
         width: 55%;
-        height: 40px;
-        background-color: gray;
         margin: 0 auto 10px;
     }
 
@@ -530,7 +537,7 @@ footer p{
 
     /* GENERAL */
     .container{
-        width: 80%;
+        width: 60%;
     }
     .flex-d{
         display: flex;
