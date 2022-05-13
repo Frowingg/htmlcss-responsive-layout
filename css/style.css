@@ -527,17 +527,14 @@ footer p{
 }
 
 @media screen and (min-width: 992px) {
-    header{
-        background-color: red;
-    }
     .header-container{
         margin: 1% auto;
-        width: 60%;
+        width: 70%;
     }
 
     /* GENERAL */
     .container{
-        width: 60%;
+        width: 70%;
     }
     .flex-d{
         display: flex;
@@ -548,13 +545,15 @@ footer p{
     /* DEMO */
     .demo-card-head{
         width: 69%;
-        height: 500px;
-        border: 1px solid red;
+    }
+    .demo-card-left-content{
+        width: 50%;
+    }
+    .demo-card-head img{
+        width: 50%;
     }
     #demo-card-2{
         width: 29%;
-        height: 500px;
-        border: 1px solid red;
         margin-top: 50px;
 
     }
@@ -562,20 +561,31 @@ footer p{
         width: calc(96% / 3);
     }
     /* STRATEGIC */
-
+    .strategic-section{
+        padding-bottom: 70px;
+    }
     #strategic-card{
         width: 49%;
         align-self: flex-end;
         background-color: white;
         margin-top: 50px;
-        margin-bottom: 80px;
         border-radius: 50px;
-        padding-bottom: 10px;
+        position: relative;
+        bottom: -100px;
     }
     #strategic-left-content{
         width: 48%;
     }
-
+    #strategic-card-img {
+        width: 60%;
+    }
+    /* TESTIMANIALS */
+    .testimonial-card-div-img{
+        margin: -10px 0 0;
+    }
+    .testimonial-card-p{
+        width: 60%;
+    }
     /* BENEFITS */
     .benefits-card{
         width: calc(95% / 3);
@@ -587,5 +597,9 @@ footer p{
     }
     .about-us-content-right{
         width: 30%;
+    }
+    /* CALL TO ACTION */
+    .call-to-action-button {
+        width: 25%;
     }
 }
