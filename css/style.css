@@ -473,7 +473,7 @@ footer p{
     
     /* BENEFITS */
     .benefits-card{
-        width: calc(100% / 2);
+        width: calc(96% / 2);
     }
     .about-us-content-left{
         width: 58%;
