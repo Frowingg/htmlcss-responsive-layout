@@ -90,6 +90,7 @@ header{
     width: 100%;
     height: 350px;
     background-color: red;
+    border-radius: 50px;
 }
 #strategic-card-icon{
     width: 50px;
@@ -150,6 +151,7 @@ header{
     background-color: white;
     border-radius: 25px;
     padding: 30px;
+    margin-bottom: 30px;
 }
 .benefits-card-number{
     width: 100px;
@@ -279,7 +281,8 @@ footer div{
         width: 90%;
     }
     .header-container{
-        width: 90%;        
+        width: 90%;
+        margin: 3% auto;        
     }
     .flex{
         display: flex;
@@ -368,5 +371,62 @@ footer div{
 @media screen and (min-width: 992px) {
     header{
         background-color: red;
+    }
+    .header-container{
+        margin: 1% auto;
+        width: 60%;
+    }
+
+    /* GENERAL */
+    .container{
+        width: 60%;
+    }
+    .flex-d{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    /* DEMO */
+    .demo-card-head{
+        width: 69%;
+        height: 500px;
+        border: 1px solid red;
+    }
+    #demo-card-2{
+        width: 29%;
+        height: 500px;
+        border: 1px solid red;
+        margin-top: 50px;
+
+    }
+    .demo-card-3-4-5{
+        width: calc(96% / 3);
+    }
+    /* STRATEGIC */
+    #strategic-card{
+        width: 49%;
+        align-self: flex-end;
+        background-color: white;
+        margin-top: 50px;
+        margin-bottom: 80px;
+        border-radius: 50px;
+        padding-bottom: 10px;
+    }
+    #strategic-left-content{
+        width: 48%;
+    }
+
+    /* BENEFITS */
+    .benefits-card{
+        width: calc(95% / 3);
+    }
+
+    /* ABOUT US */
+    .about-us-content-left{
+        width: 70%;
+    }
+    .about-us-content-right{
+        width: 30%;
     }
 }
